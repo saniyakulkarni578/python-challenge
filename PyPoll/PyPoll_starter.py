@@ -72,8 +72,7 @@ with open(file_to_output, "w") as txt_file:
     winning_summary = (
         f"-------------------------\n"
         f"Winner: {winning_candidate}\n"
-        f"Winning Vote Count: {winning_count}\n"
-        f"Winning Percentage: {winning_count / total_votes * 100:.3f}%\n"
+        
         f"-------------------------\n"
     )
 
