@@ -90,3 +90,4 @@ with open(file_to_output, "w") as txt_file:
     # Save the winning candidate summary to the text file
     print(winning_summary)
     txt_file.write(winning_summary)
+
